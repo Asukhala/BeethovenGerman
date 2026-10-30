@@ -29,7 +29,7 @@ function Contact() {
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form)) as Record<string, string>;
     const parsed = contactSchema.safeParse(data);
-    if (!parsed.success) { toast.error(parsed.error.issues[0].message); return; }
+    if (!parsed.success) { toast.error(parsed.error.issues[0]?.message ?? "Please check the form"); return; }
     setLoading(true);
     try {
       await submitContact({ data: parsed.data });
