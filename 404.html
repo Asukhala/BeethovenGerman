@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BEETHOVENS – German Gurukul</title>
   <script>
-    var path = window.location.pathname.replace(/^\/beethoven-german-gurukul/, "");
+    var path = window.location.pathname.replace(/^\/(?:BeethovenGerman|beethoven-german-gurukul)/i, "");
     window.location.replace("https://beethoven-german-gurukul.lovable.app" + path + window.location.search + window.location.hash);
   </script>
 </head>
