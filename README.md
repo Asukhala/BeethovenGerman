@@ -1,42 +1,48 @@
-# Beethoven German Gurukul
+# Beethoven German Gurukul (बीथोवेन्स जर्मन गुरुकुल)
 
-Copy & Paste Prompt:
+> ज्ञानस्य गुरुकुलम्, भाषायाः संगमः  
+> Premium German Language Institute in Rohtak, Haryana.
 
-> "Create a professional, mobile-friendly website structure and content plan for a German language institute named BEETHOVENS (Tagline: 'ज्ञानस्य गुरुकुलम्, भाषायाः संगमः', located in Rohtak, Haryana).
+## 🌐 Live Website
+- **GitHub Pages:** [https://asukhala.github.io/BeethovenGerman/](https://asukhala.github.io/BeethovenGerman/)
 
-> Key Details to Include:
+---
 
-> - Brand Identity: Premium Indo-German aesthetic with Forest Green, Royal Maroon, and Gold color theme.
+## 📁 Clean & Pure Static Structure
+This project is built purely with **HTML5, CSS3, and JavaScript** — zero framework overhead, zero node_modules, lightning fast loading.
 
-> - Courses: A1 to B2 German language training specializing in Goethe & telc exam preparation (focusing on Grammar, Speaking, and Exam Skills). Small batch size of maximum 10-15 students for personalized attention.
-
-> - Institute Infrastructure (Physical Center): Highlight our dedicated Office Room, Interactive Teaching Room, Quiet Self-Study Room, and Student Lounge with a Mini Kitchen/Water station.
-
-> - Services: Career opportunities and visa assistance in Germany.
-
-> - Website Pages Needed: Homepage (with the official poster banner and CTA), Courses (A1-B2 details), About Us (certified trainers & facility tour), Student Resources (Goethe exam guidelines & sample papers), and Contact Us (with Rohtak map, lead form, and direct WhatsApp button)."
-
->
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://beethoven-german-gurukul.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6e6e588d-9ddd-4b35-9b1c-fbd7edb030da).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
 ```
+beethoven-german-gurukul/
+├── index.html            # Homepage (Hero, batches, campus preview, FAQs)
+├── courses.html          # A1, A2, B1, B2 Course programs
+├── about.html            # About institute, full campus tour & real facility photos
+├── resources.html        # Goethe & telc exam guidelines, study materials
+├── contact.html          # Contact form, Rohtak address, Google map, direct WhatsApp
+├── 404.html              # Custom 404 error page with auto-redirect
+├── .nojekyll             # GitHub Pages bypass Jekyll build
+├── css/
+│   └── style.css         # Responsive styling, modern cards, Indo-German palette
+├── js/
+│   └── main.js           # Navigation toggle, interactive gallery, forms
+└── images/
+    ├── campus/           # Real institute photographs (Teaching, Office, Lounge, etc.)
+    ├── hero-bg.jpg       # Brand background imagery
+    ├── logo.png          # High-resolution institute crest
+    ├── logo-circle.png   # Institute circular emblem
+    ├── favicon.ico
+    └── favicon.png
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### Option 1: Direct in Browser
+Simply double-click `index.html` in file explorer to open it in Chrome, Edge, or Firefox.
+
+### Option 2: Local HTTP Server (Python)
+```bash
+# In the project directory:
+python -m http.server 8080
+```
+Then visit: [http://localhost:8080/](http://localhost:8080/)
