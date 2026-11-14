@@ -139,8 +139,9 @@ function About() {
       {/* Complete Campus Tour with All 7 Authentic Institute Photos */}
       <section id="campus-tour" className="mx-auto max-w-6xl px-4 py-16 scroll-mt-24">
         <SectionTitle kicker="Full Facility Tour" title="Inside Beethoven German Gurukul">
-          Take a complete visual tour of our campus located on the 3rd Floor of Sukhala Tower,
-          Rohtak. Every space has been custom-designed for immersive, joyful language learning.
+          Take a complete visual tour of our campus located on the 3rd Floor, Above Dalal Nutrition,
+          Sukhala Tower, Rohtak. Every space has been custom-designed for immersive, joyful language
+          learning.
         </SectionTitle>
 
         <div className="mt-8 space-y-12">
