@@ -30,22 +30,32 @@ export function Header() {
             <div className="truncate font-sanskrit text-xs md:text-sm text-gold/90">{TAGLINE}</div>
           </div>
         </Link>
-        <nav className="hidden gap-6 md:flex">
-          {NAV.map((n) => (
-            <Link
-              key={n.to}
-              to={n.to}
-              className="text-sm font-semibold uppercase tracking-wide hover:text-gold"
-              activeProps={{ className: "text-gold" }}
-              activeOptions={{ exact: true }}
-            >
-              {n.label}
-            </Link>
-          ))}
-        </nav>
-        <button className="shrink-0 md:hidden" aria-label="Menu" onClick={() => setOpen(!open)}>
-          {open ? <X /> : <Menu />}
-        </button>
+        <div className="flex items-center gap-3 sm:gap-6">
+          <nav className="hidden items-center gap-5 md:flex lg:gap-6">
+            {NAV.map((n) => (
+              <Link
+                key={n.to}
+                to={n.to}
+                className="text-sm font-semibold uppercase tracking-wide transition-colors hover:text-gold"
+                activeProps={{ className: "text-gold" }}
+                activeOptions={{ exact: true }}
+              >
+                {n.label}
+              </Link>
+            ))}
+          </nav>
+          {/* Top-Right Corner of Header: Book Free Demo Button */}
+          <Link
+            to="/contact"
+            hash="enquiry-form"
+            className="inline-flex items-center justify-center rounded-md bg-gold-sheen px-3.5 py-1.5 text-xs font-bold text-gold-foreground shadow-md transition-all hover:scale-105 hover:brightness-105 sm:px-4 sm:py-2 sm:text-sm"
+          >
+            Book Free Demo
+          </Link>
+          <button className="shrink-0 md:hidden" aria-label="Menu" onClick={() => setOpen(!open)}>
+            {open ? <X /> : <Menu />}
+          </button>
+        </div>
       </div>
       {open && (
         <nav className="flex flex-col border-t border-gold/40 px-4 pb-3 md:hidden">

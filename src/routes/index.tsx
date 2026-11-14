@@ -1,16 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import {
-  BookOpen,
-  Mic,
-  ClipboardCheck,
-  Users,
-  Plane,
-  Briefcase,
-  MessageCircle,
-} from "lucide-react";
+import { BookOpen, Mic, ClipboardCheck, Users, Plane, Briefcase } from "lucide-react";
 import { SectionTitle } from "@/components/site/Layout";
-import { TAGLINE, WHATSAPP_URL } from "@/lib/site";
+import { TAGLINE } from "@/lib/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -172,43 +164,20 @@ function Index() {
               </div>
             </div>
 
-            {/* Options Below with Individual Golden Backgrounds */}
-            <div className="mt-5 flex flex-wrap gap-2 text-xs font-bold uppercase tracking-wider">
-              <span className="rounded-md bg-gold-sheen px-3.5 py-1.5 text-gold-foreground shadow-md border border-amber-300">
-                Goethe & telc Exam Prep
+            {/* Options in Vertical Style with Individual Golden Backgrounds */}
+            <div className="mt-6 flex flex-col items-start gap-2.5">
+              <span className="inline-flex items-center rounded-md bg-gold-sheen px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm md:text-base font-bold text-gold-foreground shadow-royal border border-amber-300 transition-transform hover:translate-x-1">
+                Goethe & Telc Exam Preparation
               </span>
-              <span className="rounded-md bg-gold-sheen px-3.5 py-1.5 text-gold-foreground shadow-md border border-amber-300">
+              <span className="inline-flex items-center rounded-md bg-gold-sheen px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm md:text-base font-bold text-gold-foreground shadow-royal border border-amber-300 transition-transform hover:translate-x-1">
                 Max 10-15 Students
               </span>
-              <span className="rounded-md bg-gold-sheen px-3.5 py-1.5 text-gold-foreground shadow-md border border-amber-300">
+              <span className="inline-flex items-center rounded-md bg-gold-sheen px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm md:text-base font-bold text-gold-foreground shadow-royal border border-amber-300 transition-transform hover:translate-x-1">
                 Visa Guidance
               </span>
-            </div>
-
-            {/* Action Buttons */}
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-              <Link
-                to="/contact"
-                hash="enquiry-form"
-                className="rounded-md bg-gold-sheen px-8 py-3.5 text-center font-bold text-gold-foreground shadow-royal transition-all hover:scale-105 hover:brightness-105"
-              >
-                Book Free Demo
-              </Link>
-              <Link
-                to="/contact"
-                hash="enquiry-form"
-                className="inline-flex items-center justify-center gap-2 rounded-md bg-gold-sheen px-8 py-3.5 text-center font-bold text-gold-foreground shadow-royal transition-all hover:scale-105 hover:brightness-105"
-              >
-                <Briefcase className="h-5 w-5" /> Support & Placement
-              </Link>
-              <a
-                href={WHATSAPP_URL}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-md border-2 border-gold bg-forest px-6 py-3.5 font-bold text-gold shadow-royal transition-all hover:bg-gold hover:text-gold-foreground"
-              >
-                <MessageCircle className="h-5 w-5" /> WhatsApp Us
-              </a>
+              <span className="inline-flex items-center rounded-md bg-gold-sheen px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm md:text-base font-bold text-gold-foreground shadow-royal border border-amber-300 transition-transform hover:translate-x-1">
+                Support & Placement
+              </span>
             </div>
           </div>
         </div>
