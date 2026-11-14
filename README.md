@@ -6,15 +6,15 @@ Copy & Paste Prompt:
 
 > Key Details to Include:
 
->  * Brand Identity: Premium Indo-German aesthetic with Forest Green, Royal Maroon, and Gold color theme.
+> - Brand Identity: Premium Indo-German aesthetic with Forest Green, Royal Maroon, and Gold color theme.
 
->  * Courses: A1 to B2 German language training specializing in Goethe & telc exam preparation (focusing on Grammar, Speaking, and Exam Skills). Small batch size of maximum 8-9 students for personalized attention.
+> - Courses: A1 to B2 German language training specializing in Goethe & telc exam preparation (focusing on Grammar, Speaking, and Exam Skills). Small batch size of maximum 10-15 students for personalized attention.
 
->  * Institute Infrastructure (Physical Center): Highlight our dedicated Office Room, Interactive Teaching Room, Quiet Self-Study Room, and Student Lounge with a Mini Kitchen/Water station.
+> - Institute Infrastructure (Physical Center): Highlight our dedicated Office Room, Interactive Teaching Room, Quiet Self-Study Room, and Student Lounge with a Mini Kitchen/Water station.
 
->  * Services: Career opportunities and visa assistance in Germany.
+> - Services: Career opportunities and visa assistance in Germany.
 
->  * Website Pages Needed: Homepage (with the official poster banner and CTA), Courses (A1-B2 details), About Us (certified trainers & facility tour), Student Resources (Goethe exam guidelines & sample papers), and Contact Us (with Rohtak map, lead form, and direct WhatsApp button)."
+> - Website Pages Needed: Homepage (with the official poster banner and CTA), Courses (A1-B2 details), About Us (certified trainers & facility tour), Student Resources (Goethe exam guidelines & sample papers), and Contact Us (with Rohtak map, lead form, and direct WhatsApp button)."
 
 >
 
